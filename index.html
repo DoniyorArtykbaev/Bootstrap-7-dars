@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="_Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6">
+            <ul class="list-unstyled">
+                <li class="d-inline-block dropright">
+                    <button type="button" class="btn btn-success dropdown-toggle"  data-toggle="dropdown">Menu 1</button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="#">Menu 1.1</a></li>
+                        <li class="dropdown-item"><a href="#">Menu 1.2</a></li>
+                        <li class="dropdown-item"><a href="#">Menu 1.3</a></li>
+                        <li class="dropdown-item"><a href="#">Menu 1.4</a></li>
+                        <li class="dropdown-item"><a href="#">Menu 1.5</a></li>
+                    </ul>
+                </li>
+                <li class="d-inline-block dropdown">
+                    <a href="#">Menu 2</a>
+                </li>
+                <li class="d-inline-block dropdown">
+                    <a href="#">Menu 3</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#myBox">
+                Click mee
+            </button>
+            <div class="mt-4 collapse" id="myBox">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    A accusantium adipisci aspernatur atque blanditiis consequatur
+                    cum deserunt ea fuga in ipsam magni maxime odit optio quas reprehenderit velit, vitae voluptatem.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-12">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" data-toggle="tab" data-target="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="tab" data-target="#menu1">Menu 1</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="tab" data-target="#menu2">Menu 2</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane" id="home">
+                    <h4 class="card-title fade show">About home</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Dicta laboriosam necessitatibus vitae! A accusamus adipisci
+                        consequuntur deleniti dicta dignissimos dolor eum excepturi,
+                        fugit impedit, magnam voluptatem! Illo ratione sed tempore.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="menu1">
+                    <h4 class="card-title">About home menu1</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Dicta laboriosam necessitatibus vitae! A accusamus adipisci
+                        consequuntur deleniti dicta dignissimos dolor eum excepturi,
+                        fugit impedit, magnam voluptatem! Illo ratione sed tempore.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="menu2">
+                    <h4 class="card-title">About home menu2</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Dicta laboriosam necessitatibus vitae! A accusamus adipisci
+                        consequuntur deleniti dicta dignissimos dolor eum excepturi,
+                        fugit impedit, magnam voluptatem! Illo ratione sed tempore.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="_Bootstrap/js/jQuery.min.js"></script>
+<script src="_Bootstrap/js/src/popover.js"></script>
+<script src="_Bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
